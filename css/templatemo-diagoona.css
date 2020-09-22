@@ -15,6 +15,31 @@ body {
     background-color: #2C353C;
 }
 
+
+@media screen and (max-width: 1680px) {
+
+            body, input, select, textarea {
+                font-size: 13pt;
+            }
+
+        }
+
+        @media screen and (max-width: 1280px) {
+
+            body, input, select, textarea {
+                font-size: 12pt;
+            }
+
+        }
+
+        @media screen and (max-width: 360px) {
+
+            body, input, select, textarea {
+                font-size: 11pt;
+            }
+
+        }
+
 a { 
     transition: all 0.3s ease; 
     text-decoration: none;
