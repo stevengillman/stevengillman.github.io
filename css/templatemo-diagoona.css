@@ -6,6 +6,9 @@ https://templatemo.com/tm-550-diagoona
 
 */
 
+
+
+
 body {
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 100%;
@@ -15,7 +18,20 @@ body {
     background-color: #2C353C;
 }
 
-
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:80%;
+    position:absolute;
+}
+ 
 @media screen and (max-width: 1680px) {
 
             body, input, select, textarea {
