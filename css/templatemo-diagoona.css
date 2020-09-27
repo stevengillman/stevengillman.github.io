@@ -31,6 +31,20 @@ body {
     width:70%;
     position:absolute;
 }
+
+.map-responsive_v{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive_v iframe{
+    left:0;
+    top:0;
+    height:70%;
+    width:50%;
+    position:absolute;
+}
  
 @media screen and (max-width: 1680px) {
 
